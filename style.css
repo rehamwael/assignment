@@ -1,0 +1,195 @@
+
+
+body{
+  background-color: #ebe7df;
+}
+
+ul {
+  margin: 0;
+padding: 0;
+list-style-type: none;
+
+
+}
+li{
+   float: left;
+}
+/*Top Header CSS*/
+.top-header {
+    background: #242424;
+    border-radius: 0;
+    padding: 4px 0px;
+}
+
+.top-header-right h5{
+  color: #666666;
+  font-size: 13px;
+  padding-top: 15px;
+}
+.top-header-right li{
+  padding-right: 20px;
+
+}
+.top-header-right .fa-search{
+
+  padding-top: 15px;
+}
+
+.logo h1{
+  font-size: 26px;
+  color: #57c5a0;
+}
+.top-header-right  ul li a:hover, a:visited, a:active , a:focus {
+    color: #57c5a0;
+
+}
+.top-header-right  ul li a:visited {
+  background: transparent;
+
+}
+.top-header-right ul li a {
+    color: #666666;
+
+}
+.top-header-right ul li  a:hover{
+    background: transparent;
+}
+.top-header-right ul li  a:focus{
+    background: transparent;
+}
+.top-header-right ul li  a:active{
+    background: transparent;
+}
+.top-header-right ul li  a:visited{
+    background: transparent;
+}
+
+
+
+/*Buttom Header my-nav*/
+#my-nav {
+    border-color: #c9c7c3;
+    background-color: #fff;
+      border-radius: 0;
+
+}
+#my-nav ul li {
+
+    border-left:  1px solid #ebe7df;
+    color: #000000;
+
+}
+#my-nav ul li a:hover, a:visited, a:active , a:focus {
+
+    background-color: #fff;
+    color: #57c5a0;
+}
+#my-nav ul li a {
+    color: #000000;
+
+}
+#my-nav ul li  a:hover{
+    background: transparent;
+}
+#my-nav ul li  a:focus{
+    background: transparent;
+}
+#my-nav ul li  a:active{
+    background: transparent;
+}
+#my-nav ul li  a:visited{
+    background: transparent;
+}
+.navbar-toggle {
+    color: #57c5a0;
+}
+
+/*END OF BUTTOM*/
+
+/*special-items*/
+#special-items{
+  background-color: #242424;
+  padding-top: 14px;
+
+}
+
+  .post-content {
+  position: relative;
+  display: table;
+  padding-bottom: 14px;
+
+
+
+  }
+    .post-content img {
+     width: 100%;
+
+  }
+  .caption {
+      z-index: 99;
+      width: 40%;
+      background: none repeat scroll 0 0 #000000;
+       opacity: 0.8;
+       padding-top: 12px;
+      margin-left: 24%;
+      vertical-align: middle;
+      position: absolute;
+      top: 38%; /* Obvious problem, cause it's arbitrary */
+  }
+  .caption p {
+      text-align: center;
+      color: #fff;
+      font-size: 100%;
+      font-weight:lighter;
+
+  }
+/*Special Items */
+#main-items h2{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #242424;
+}
+
+
+.item-prop{
+  background-color: #fff;
+  margin-bottom: 10px;
+
+}
+ .price{
+  background-color: #57c5a0;
+}
+#main-items ul li{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+  margin-top: 27px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 13.3px;
+  background-color: #2e2e2e;
+  color: #747474;
+}
+
+.footer-right li a:hover, a:visited, a:active , a:focus {
+  text-decoration: none;
+
+    color: #57c5a0;
+}
+.footer-right  li a {
+    color: #747474;
+
+}
