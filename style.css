@@ -150,6 +150,27 @@ li{
   font-size: 25px;
   color: #242424;
 }
+.top_main {
+  margin-top: 25px;
+}
+.top_main a{
+	font-size: 1em;
+
+	float: right;
+	text-transform: capitalize;
+	padding: 8px 20px;
+	color: #BCB4A7;
+	border: 1px solid #BCB4A7;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.top_main a:hover{
+  text-decoration: none;
+	background:#BCB4A7;
+	color: #fff;
+}
 
 
 .item-prop{
@@ -180,6 +201,7 @@ li{
 
     cursor: pointer;
 }
+
 
 
 
